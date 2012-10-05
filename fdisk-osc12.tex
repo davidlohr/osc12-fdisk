@@ -1,0 +1,130 @@
+%
+% Copyright (C) 2012 Davidlohr Bueso <dave@gnu.org>
+%
+% Presentation for openSUSE conference 2012 - Prague.
+% 
+\documentclass{beamer}
+\setbeamertemplate{navigation symbols}{}
+\usepackage{beamerthemeshadow}
+
+\begin{document}
+\title{fdisk: a XXI Century Disk Partitioning Tool}  
+\author{Davidlohr Bueso dave@gnu.org \\ Petr Uzel petr.uzel@suse.cz}
+\date{\today} 
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}\frametitle{Table of contents}\tableofcontents
+\end{frame} 
+
+% INTRODUCTION
+\section{Introduction} 
+\begin{frame}\frametitle{Introduction}
+
+\end{frame}
+\subsection{Disk Partitioners}
+\begin{frame}
+\begin{itemize}
+\item \textbf{fdisk}
+\item parted
+\item gdisk
+\end{itemize}
+\end{frame}
+
+
+\section{Fdisk Problems} 
+\subsection{Smelly, Legacy Code}
+
+\begin{frame}\frametitle{Smelly, Legacy Code}
+  \begin{columns}
+    \begin{column}{.5\linewidth}
+      The Linux fdisk program is over 20 years old and is a complex product of multiple authors, concepts, coding styles etc.\newline
+      
+      As a result, code is \textbf{glued} together and making it difficult and error prone to enhance an/or fix bugs.
+    \end{column}
+    \begin{column}{.5\linewidth}
+      \includegraphics[scale=0.2]{img/glustick} 
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Smelly, Legacy Code}
+\begin{figure}
+\includegraphics[scale=0.4]{img/SmellyLegacyCode} 
+\end{figure}
+\end{frame}
+
+\subsection{Stuck in the Past}
+\begin{frame}\frametitle{Stuck in the Past}
+  \begin{columns}
+    \begin{column}{.5\linewidth}
+      \includegraphics[scale=0.3]{img/linkman}
+       \end{column}
+    \begin{column}{.5\linewidth}
+      \begin{itemize}
+      \item DOS compatibility mode
+      \item Only works with MBRs
+      \item CHS addressing
+      \item Mainframe style UIs\newline
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\subsection{Everyone Looses}
+\begin{frame}\frametitle{Everyone Looses}
+    \begin{columns}
+      \begin{column}{.5\linewidth}
+        \begin{block}{Hackers loose}
+          Adding new code and extending functionality is difficult, tedious and error prone.
+        \end{block}\pause
+        \includegraphics[scale=0.3]{img/running-uphill}
+      \end{column}
+      \begin{column}{.5\linewidth} 
+        \includegraphics[scale=0.5]{img/leaving}
+        \begin{block}{Users loose}
+        Fdisk \textbf{cannot} compete with other partitioning tools and thus looses users. Hey, healthy competition is good for everyone!
+        \end{block}
+      \end{column}
+    \end{columns}
+  \end{frame}
+
+\section{Fixing Fdisk}
+\begin{frame}\frametitle{Short Term}
+  Short term goals:
+  \begin{itemize}
+  \item Cleanup and refactor current, legacy, code
+  \item Create an internal API that abstracts disklabel concepts and specifications
+  \item Add GUID Partition Table (GPT) support
+  \end{itemize} 
+\end{frame}
+
+\begin{frame}\frametitle{Longer Term}
+  Long term goals:
+  \begin{itemize}
+  \item Create an independant, libfdisk shared library.
+  \item Rewrite cfdisk and sfdisk with new library.
+  \end{itemize} 
+\end{frame}
+
+
+\section{The Road Ahead}
+\begin{frame}\frametitle{The Road Ahead}
+  Still plenty of work to do, some things include:
+ \begin{itemize}
+  \item Enhance UIs ($libreadline$ - gdb style)
+  \item Support more disklabels (APM, AIX)
+  \item General cleanups and refactoring
+  \item Documentation
+  \item tests, tests, tests
+  \end{itemize} 
+\end{frame}
+
+\begin{frame}\frametitle{Thank you}
+  \center{ \includegraphics[scale=0.5]{img/thankyou} }
+\end{frame}
+
+
+\end{document}
