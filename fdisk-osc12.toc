@@ -6,4 +6,5 @@
 \beamer@subsectionintoc {2}{2}{Stuck in the Past}{7}{0}{2}
 \beamer@subsectionintoc {2}{3}{Everyone Looses}{8}{0}{2}
 \beamer@sectionintoc {3}{Fixing Fdisk}{10}{0}{3}
-\beamer@sectionintoc {4}{The Road Ahead}{12}{0}{4}
+\beamer@sectionintoc {4}{GPT Overview}{12}{0}{4}
+\beamer@sectionintoc {5}{The Road Ahead}{13}{0}{5}
