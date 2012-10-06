@@ -7,7 +7,7 @@
 \beamer@subsubsectionintoc {2}{1}{2}{Stuck in the Past}{7}{0}{2}
 \beamer@subsubsectionintoc {2}{1}{3}{Everyone Looses}{8}{0}{2}
 \beamer@subsectionintoc {2}{2}{Fixing Fdisk}{9}{0}{2}
-\beamer@sectionintoc {3}{GPT Overview}{11}{0}{3}
-\beamer@subsectionintoc {3}{1}{Benefits of GPT}{12}{0}{3}
-\beamer@subsectionintoc {3}{2}{Drawbacks of GPT}{13}{0}{3}
-\beamer@sectionintoc {4}{The Road Ahead}{14}{0}{4}
+\beamer@sectionintoc {3}{GPT Overview}{13}{0}{3}
+\beamer@subsectionintoc {3}{1}{Benefits of GPT}{14}{0}{3}
+\beamer@subsectionintoc {3}{2}{Drawbacks of GPT}{15}{0}{3}
+\beamer@sectionintoc {4}{The Road Ahead}{16}{0}{4}
