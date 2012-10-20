@@ -13,4 +13,6 @@
 \beamer@sectionintoc {4}{GPT Support}{16}{0}{4}
 \beamer@subsectionintoc {4}{1}{Benefits of GPT}{17}{0}{4}
 \beamer@subsectionintoc {4}{2}{Drawbacks of GPT}{18}{0}{4}
-\beamer@sectionintoc {5}{The Road Ahead}{19}{0}{5}
+\beamer@subsectionintoc {4}{3}{Fdisk and GPT}{19}{0}{4}
+\beamer@subsectionintoc {4}{4}{Implementation Details}{20}{0}{4}
+\beamer@sectionintoc {5}{The Road Ahead}{21}{0}{5}

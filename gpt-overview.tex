@@ -21,13 +21,41 @@
 
 \subsection{Drawbacks of GPT}
 \begin{frame}\frametitle{Drawbacks of GPT}
-  There's no such thing as a free lunch:
+  \begin{columns}
+    \begin{column}{.25\linewidth}
+      \includegraphics[scale=1.3]{img/freelunch}
+    \end{column}
+    \begin{column}{.7\linewidth}
+      \begin{itemize}
+      \item Compatibility
+        \begin{itemize}
+        \item OS
+        \item Bootloaders
+        \end{itemize}
+      \item Non-standard schemes (Hybrid MBRs)
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\subsection{Fdisk and GPT}
+\begin{frame}\frametitle{Fdisk \& GPT}
   \begin{itemize}
-  \item Compatibility
+  \item Well known fact that fdisk didn't play well with GPT
     \begin{itemize}
-    \item OS
-    \item Bootloaders
+      \item disklabel detection \emph{only}
+      \item sends users to other tools (GNU parted)
+      \item deals only with legacy DOS partitions.
     \end{itemize}
-  \item Non-standard schemes (Hybrid MBRs)
+  \item Sept. 2012 we got full GPT support merged in mainline fdisk.
+  \end{itemize}
+\end{frame}
+
+\subsection{Implementation Details}
+\begin{frame}\frametitle{Some GPT Implementation Details}
+  \begin{itemize}
+  \item Deals with both legacy protective and hybrid MBRs.
+  \item Updates checksums on the fly and not only when writing in-memory data to disk.
+  \item Generous support for GUID partition types.
   \end{itemize}
 \end{frame}
