@@ -2,28 +2,25 @@
 
 % INTRODUCTION
 \section{Introduction}
-\begin{frame}\frametitle{Introduction}
-  
-\end{frame}
 
-\subsection{Disk Partitioners}
-\begin{frame}\frametitle{Role of Disk Partitioners}
+\begin{frame}\frametitle{Disk Partitioners}
+  GNU Parted
   \begin{itemize}
-  \item Aid users to administrate their disk layout/scheme.
-    \begin{itemize}
-    \item add/delete/edit/reorganize
-    \item validations/free space/sectors
-    \end{itemize}
-  \item Disk specification/standard compliant - no funny business.
-  \item \textbf{Guarantee} data correctness and integrity.
+  \item Supports many disklabels
+  \item libparted
+  \item inflexible
   \end{itemize}
 \end{frame}
 
 \begin{frame}\frametitle{Disk Partitioners}
-  Some popular disk partitioners available in Linux:
+  GPT fdisk
   \begin{itemize}
-  \item \textbf{fdisk} - part of the util-linux package.
-  \item parted and friends - based on libparted
-  \item gdisk - first(?) partitioner to have GPT support
+  \item GPT only 
   \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Disk Partitioners}
+  \begin{block}{Fdisk-family}
+    fdisk, cfdisk, sfdisk - part of util-linux
+  \end{block}
 \end{frame}

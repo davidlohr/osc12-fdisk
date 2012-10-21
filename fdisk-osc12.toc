@@ -1,18 +1,18 @@
 \beamer@endinputifotherversion {3.10pt}
-\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Disk Partitioners}{4}{0}{1}
-\beamer@sectionintoc {2}{Fdisk's State of the Art}{6}{0}{2}
-\beamer@subsectionintoc {2}{1}{Fdisk Problems}{6}{0}{2}
-\beamer@subsubsectionintoc {2}{1}{1}{Smelly, Legacy Code}{6}{0}{2}
-\beamer@subsubsectionintoc {2}{1}{2}{Stuck in the Past}{8}{0}{2}
-\beamer@subsubsectionintoc {2}{1}{3}{Everyone Looses}{9}{0}{2}
-\beamer@subsectionintoc {2}{2}{Fixing Fdisk}{10}{0}{2}
-\beamer@sectionintoc {3}{New Internal API}{14}{0}{3}
-\beamer@subsectionintoc {3}{1}{Architectural Overview}{15}{0}{3}
-\beamer@subsectionintoc {3}{2}{API Benefits}{16}{0}{3}
-\beamer@sectionintoc {4}{GPT Support}{17}{0}{4}
-\beamer@subsectionintoc {4}{1}{Benefits of GPT}{18}{0}{4}
-\beamer@subsectionintoc {4}{2}{Drawbacks of GPT}{19}{0}{4}
-\beamer@subsectionintoc {4}{3}{Fdisk and GPT}{20}{0}{4}
-\beamer@subsectionintoc {4}{4}{Implementation Details}{21}{0}{4}
-\beamer@sectionintoc {5}{The Road Ahead}{22}{0}{5}
+\beamer@sectionintoc {1}{Overview}{2}{0}{1}
+\beamer@sectionintoc {2}{Introduction}{3}{0}{2}
+\beamer@sectionintoc {3}{Fdisk's State of the Art}{6}{0}{3}
+\beamer@subsectionintoc {3}{1}{Fdisk Problems}{6}{0}{3}
+\beamer@subsubsectionintoc {3}{1}{1}{Smelly, Legacy Code}{6}{0}{3}
+\beamer@subsubsectionintoc {3}{1}{2}{Stuck in the Past}{8}{0}{3}
+\beamer@subsubsectionintoc {3}{1}{3}{Everyone Looses}{9}{0}{3}
+\beamer@subsectionintoc {3}{2}{Fixing Fdisk}{10}{0}{3}
+\beamer@sectionintoc {4}{New Internal API}{14}{0}{4}
+\beamer@subsectionintoc {4}{1}{Architectural Overview}{15}{0}{4}
+\beamer@subsectionintoc {4}{2}{API Benefits}{16}{0}{4}
+\beamer@sectionintoc {5}{GPT Support}{17}{0}{5}
+\beamer@subsectionintoc {5}{1}{Benefits of GPT}{18}{0}{5}
+\beamer@subsectionintoc {5}{2}{Drawbacks of GPT}{19}{0}{5}
+\beamer@subsectionintoc {5}{3}{Fdisk and GPT}{20}{0}{5}
+\beamer@subsectionintoc {5}{4}{Implementation Details}{21}{0}{5}
+\beamer@sectionintoc {6}{The Road Ahead}{22}{0}{6}
