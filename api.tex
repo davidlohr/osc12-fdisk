@@ -12,7 +12,11 @@
     \item gateway for disklabel specific demads (like probing or deleting a partition).
     \end{enumerate}
   \item Everything fdisk is capable of doing is goverened by a \textbf{fdisk context}.
-  \item API users need not worry about internals.
+    \begin{enumerate}
+    \item opaque data structure
+    \item versioned symbols
+    \item describes the disk
+    \end{enumerate}
   \end{itemize}
 \end{frame}
 
